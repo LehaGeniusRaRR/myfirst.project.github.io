@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services>
+    <!-- Photography Services -->
+    <service id="wedding" category="photography">
+        <name>Свадебная съёмка</name>
+        <description>Полный день съёмки вашего особенного дня. Включает подготовку, церемонию, банкет и прогулку. Более 300 обработанных фотографий.</description>
+        <price>от 500 BYN</price>
+        <image>https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&amp;fit=crop&amp;w=600&amp;q=80</image>
+        <feature>Подготовка невесты</feature>
+        <feature>Церемония бракосочетания</feature>
+        <feature>Свадебный банкет</feature>
+        <feature>Прогулка молодоженов</feature>
+        <feature>Более 300 обработанных фото</feature>
+    </service>
+    
+    <service id="portrait" category="photography">
+        <name>Портретная съёмка</name>
+        <description>Профессиональная портретная съёмка в студии или на природе. Поможем раскрыть вашу индивидуальность и создать потрясающие кадры.</description>
+        <price>от 150 BYN</price>
+        <image>https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&amp;fit=crop&amp;w=600&amp;q=80</image>
+        <feature>Студийная съёмка</feature>
+        <feature>Съёмка на природе</feature>
+        <feature>Профессиональный макияж</feature>
+        <feature>Подбор образов</feature>
+        <feature>50+ обработанных фото</feature>
+    </service>
+    
+    <service id="family" category="photography">
+        <name>Семейные фотосессии</name>
+        <description>Тёплые и душевные семейные фотосессии. Запечатлим ваши счастливые моменты вместе. Подходит для семей любого размера.</description>
+        <price>от 200 BYN</price>
+        <image>https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&amp;fit=crop&amp;w=600&amp;q=80</image>
+        <feature>Съёмка всей семьи</feature>
+        <feature>Индивидуальные портреты</feature>
+        <feature>Детская съёмка</feature>
+        <feature>Съёмка на природе</feature>
+        <feature>100+ обработанных фото</feature>
+    </service>
+    
+    <service id="creative" category="photography">
+        <name>Творческая съёмка</name>
+        <description>Креативная фотосессия с уникальной концепцией. Создадим необычные и запоминающиеся кадры, которые подчеркнут вашу индивидуальность.</description>
+        <price>от 300 BYN</price>
+        <image>https://images.unsplash.com/photo-1505628346881-b72b27e84530?auto=format&amp;fit=crop&amp;w=600&amp;q=80</image>
+        <feature>Уникальная концепция</feature>
+        <feature>Художественная постановка</feature>
+        <feature>Специальные эффекты</feature>
+        <feature>Креативная обработка</feature>
+        <feature>75+ обработанных фото</feature>
+    </service>
+    
+    <service id="event" category="photography">
+        <name>Съёмка мероприятий</name>
+        <description>Профессиональная съёмка корпоративных мероприятий, конференций, концертов и других событий. Репортажный стиль.</description>
+        <price>от 250 BYN</price>
+        <image>https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&amp;fit=crop&amp;w=600&amp;q=80</image>
+        <feature>Корпоративные мероприятия</feature>
+        <feature>Конференции и семинары</feature>
+        <feature>Концерты и выступления</feature>
+        <feature>Репортажный стиль</feature>
+        <feature>200+ обработанных фото</feature>
+    </service>
+    
+    <service id="fashion" category="photography">
+        <name>Фэшн-съёмка</name>
+        <description>Профессиональная фэшн-фотография для моделей, брендов и модных показов. Создаем стильные и современные образы.</description>
+        <price>от 400 BYN</price>
+        <image>https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&amp;fit=crop&amp;w=600&amp;q=80</image>
+        <feature>Студийная фэшн-съёмка</feature>
+        <feature>Работа с моделями</feature>
+        <feature>Стилизация и образы</feature>
+        <feature>Профессиональное освещение</feature>
+        <feature>100+ обработанных фото</feature>
+    </service>
+    
+    <service id="product" category="photography">
+        <name>Предметная съёмка</name>
+        <description>Высококачественная съёмка товаров для каталогов, интернет-магазинов и рекламы. Подчеркнем достоинства вашего продукта.</description>
+        <price>от 120 BYN</price>
+        <image>https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&amp;fit=crop&amp;w=600&amp;q=80</image>
+        <feature>Студийная предметная съёмка</feature>
+        <feature>Съёмка для каталогов</feature>
+        <feature>Рекламная фотография</feature>
+        <feature>Обработка для интернет-магазинов</feature>
+        <feature>30+ обработанных фото</feature>
+    </service>
+    
+    <!-- Videography Services -->
+    <service id="wedding-video" category="videography">
+        <name>Свадебное видео</name>
+        <description>Создание красивого свадебного фильма с монтажом, музыкой и спецэффектами. Запечатлим все важные моменты вашего дня.</description>
+        <price>от 800 BYN</price>
+        <image>https://images.unsplash.com/photo-1519225421980-341e92167822?auto=format&amp;fit=crop&amp;w=600&amp;q=80</image>
+        <feature>Полный день съёмки</feature>
+        <feature>Профессиональный монтаж</feature>
+        <feature>Музыкальное сопровождение</feature>
+        <feature>Специальные эффекты</feature>
+        <feature>Фильм 15-20 минут</feature>
+    </service>
+    
+    <service id="corporate-video" category="videography">
+        <name>Корпоративное видео</name>
+        <description>Создание презентационных и рекламных видео для компаний. От интервью до полноценных рекламных роликов.</description>
+        <price>от 600 BYN</price>
+        <image>https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&amp;fit=crop&amp;w=600&amp;q=80</image>
+        <feature>Презентационные ролики</feature>
+        <feature>Рекламные видео</feature>
+        <feature>Интервью и репортажи</feature>
+        <feature>Профессиональный монтаж</feature>
+        <feature>Готовый продукт 3-5 минут</feature>
+    </service>
+    
+    <service id="music-video" category="videography">
+        <name>Музыкальные клипы</name>
+        <description>Создание музыкальных клипов для исполнителей и групп. От концепции до финального монтажа с визуальными эффектами.</description>
+        <price>от 1000 BYN</price>
+        <image>https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&amp;fit=crop&amp;w=600&amp;q=80</image>
+        <feature>Разработка концепции</feature>
+        <feature>Съёмка в студии и на локациях</feature>
+        <feature>Синхронизация с музыкой</feature>
+        <feature>Визуальные эффекты</feature>
+        <feature>Готовый клип 3-5 минут</feature>
+    </service>
+    
+    <service id="event-video" category="videography">
+        <name>Видеосъёмка мероприятий</name>
+        <description>Профессиональная видеосъёмка концертов, фестивалей, корпоративов и других масштабных событий.</description>
+        <price>от 500 BYN</price>
+        <image>https://images.unsplash.com/photo-1496337589254-7e19d01cec43?auto=format&amp;fit=crop&amp;w=600&amp;q=80</image>
+        <feature>Многокамерная съёмка</feature>
+        <feature>Съёмка концертов</feature>
+        <feature>Корпоративные мероприятия</feature>
+        <feature>Динамический монтаж</feature>
+        <feature>Фильм 10-15 минут</feature>
+    </service>
+    
+    <!-- Editing Services -->
+    <service id="retouch" category="editing">
+        <name>Ретушь и обработка</name>
+        <description>Профессиональная ретушь фотографий: удаление дефектов, цветокоррекция, улучшение кожи. Цена указана за одно фото.</description>
+        <price>от 10 BYN/фото</price>
+        <image>https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&amp;fit=crop&amp;w=600&amp;q=80</image>
+        <feature>Удаление дефектов кожи</feature>
+        <feature>Цветокоррекция</feature>
+        <feature>Улучшение качества</feature>
+        <feature>Художественная обработка</feature>
+        <feature>Быстрое выполнение</feature>
+    </service>
+    
+    <service id="color-grading" category="editing">
+        <name>Цветокоррекция</name>
+        <description>Профессиональная цветокоррекция фотографий и видео. Создание уникального цветового стиля и атмосферы.</description>
+        <price>от 15 BYN/фото</price>
+        <image>https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&amp;fit=crop&amp;w=600&amp;q=80</image>
+        <feature>Цветокоррекция фото</feature>
+        <feature>Цветокоррекция видео</feature>
+        <feature>Создание стиля</feature>
+        <feature>Пакетная обработка</feature>
+        <feature>Быстрая доставка</feature>
+    </service>
+    
+    <service id="composite" category="editing">
+        <name>Композитная обработка</name>
+        <description>Создание сложных композиций, замена фонов, добавление элементов и создание фантастических образов.</description>
+        <price>от 25 BYN/фото</price>
+        <image>https://images.unsplash.com/photo-1534824399942-7a1a427f7532?auto=format&amp;fit=crop&amp;w=600&amp;q=80</image>
+        <feature>Замена фонов</feature>
+        <feature>Добавление элементов</feature>
+        <feature>Создание композиций</feature>
+        <feature>Художественные эффекты</feature>
+        <feature>Высокое качество</feature>
+    </service>
+    
+    <service id="video-editing" category="editing">
+        <name>Видеомонтаж</name>
+        <description>Профессиональный видеомонтаж: от простых роликов до сложных проектов с эффектами и анимацией.</description>
+        <price>от 200 BYN/час</price>
+        <image>https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&amp;fit=crop&amp;w=600&amp;q=80</image>
+        <feature>Линейный монтаж</feature>
+        <feature>Добавление эффектов</feature>
+        <feature>Анимация и титры</feature>
+        <feature>Цветокоррекция видео</feature>
+        <feature>Звуковое оформление</feature>
+    </service>
+    
+    <service id="batch-processing" category="editing">
+        <name>Пакетная обработка</name>
+        <description>Обработка большого количества фотографий в едином стиле. Идеально для свадеб, мероприятий и коммерческих проектов.</description>
+        <price>от 10 BYN/фото</price>
+        <image>https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?auto=format&amp;fit=crop&amp;w=600&amp;q=80</image>
+        <feature>Единый стиль обработки</feature>
+        <feature>Быстрая обработка</feature>
+        <feature>Скидки на объем</feature>
+        <feature>Гарантия качества</feature>
+        <feature>Срочное выполнение</feature>
+    </service>
+</services> 
