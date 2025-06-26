@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font-primary;
+  background: $white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-heading;
+}
