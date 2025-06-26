@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Фотостудия LightArt</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="menu-overlay" id="menuOverlay"></div>
+  <header>
+    <nav class="main-nav">
+      <a href="index.html" class="logo">
+        <img src="img/logo.svg" alt="Логотип LightArt" width="48" height="48">
+        <span>LightArt</span>
+      </a>
+      <ul class="nav-list" id="navList">
+        <li><a href="index.html" aria-current="page">Главная</a></li>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Открыть меню">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+  </header>
+  <section class="welcome-block">
+    <div class="welcome-content">
+      <h1>Добро пожаловать в LightArt!</h1>
+      <p>LightArt — это современная фотостудия, где каждый может раскрыть свою индивидуальность. Наша миссия — создавать атмосферу творчества и комфорта, чтобы ваши фотографии были не просто снимками, а настоящими произведениями искусства.</p>
+    </div>
+  </section>
+  <section class="portfolio-block">
+    <div class="portfolio-content">
+      <h2>Примеры наших работ</h2>
+      <div class="portfolio-slider-container">
+        <div class="portfolio-slider">
+          <!-- Слайды будут вставлены сюда с помощью JS -->
+        </div>
+        <div class="slider-dots">
+          <!-- Точки для навигации -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cta-block">
+    <div class="cta-content">
+      <h2>Готовы к новым впечатлениям?</h2>
+      <p>Оставьте заявку и мы свяжемся с вами для организации вашей идеальной фотосессии!</p>
+      <a href="services.html" class="cta-btn">Заказать съёмку</a>
+    </div>
+  </section>
+  <section class="reviews-block">
+    <div class="reviews-content">
+      <h2>Отзывы наших клиентов</h2>
+      <div class="reviews-list">
+        <div class="review-card">
+          <img src="img/first.jpg" alt="Анна" class="review-photo">
+          <div class="review-text">
+            <p>Очень понравилась студия! Профессиональный подход, уютная атмосфера и потрясающие фотографии. Спасибо всей команде!</p>
+            <span class="review-author">Анна</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <img src="img/second.jpg" alt="Дмитрий" class="review-photo">
+          <div class="review-text">
+            <p>Фото получились просто шикарные! Всё было организовано на высшем уровне, обязательно приду ещё раз.</p>
+            <span class="review-author">Дмитрий</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <img src="img/third.jpg" alt="Екатерина" class="review-photo">
+          <div class="review-text">
+            <p>Спасибо за индивидуальный подход и отличное настроение на съёмке! Рекомендую всем друзьям.</p>
+            <span class="review-author">Екатерина</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="portfolio-modal" class="portfolio-modal">
+    <span class="portfolio-modal-close">&times;</span>
+    <button class="portfolio-modal-prev">&#10094;</button>
+    <div class="portfolio-modal-content">
+      <img class="portfolio-modal-img" id="modal-img-content">
+      <div class="portfolio-modal-caption" id="modal-caption"></div>
+    </div>
+    <button class="portfolio-modal-next">&#10095;</button>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-column footer-about">
+            <h4>LightArt</h4>
+            <p>Ваше пространство для творчества и профессиональной фотографии. Мы сохраняем лучшие моменты.</p>
+        </div>
+        <div class="footer-column footer-links">
+            <h4>Карта сайта</h4>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="footer-column footer-contact">
+            <h4>Свяжитесь с нами</h4>
+            <p>г. Минск, ул. Бобруйская, 5</p>
+            <p><a href="tel:+375291234567">+375 (29) 123-45-67</a></p>
+            <p><a href="mailto:info@lightart.by">info@lightart.by</a></p>
+        </div>
+        <div class="footer-column footer-social">
+            <h4>Мы в соцсетях</h4>
+            <div class="social-icons">
+                <a href="#" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24"><path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.2,5.2 0,0 1,16.2 22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.2,5.2 0,0 1,7.8 2M7.6,4A3.6,3.6 0,0 0,4 7.6V16.4A3.6,3.6 0,0 0,7.6 20H16.4A3.6,3.6 0,0 0,20 16.4V7.6A3.6,3.6 0,0 0,16.4 4H7.6M17.25,5.5A1.25,1.25 0,1 0,18.5 6.75,1.25 1.25,0 0,0 17.25 5.5M12,7A5,5 0,1 0,17 12,5 5,0 0,0 12 7M12,9A3,3 0,1 1,9 12,3 3,0 0,1 12 9Z"></path></svg>
+                </a>
+                <a href="#" aria-label="Facebook">
+                    <svg viewBox="0 0 24 24"><path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.196h3.312z"></path></svg>
+                </a>
+                <a href="#" aria-label="Telegram">
+                    <svg viewBox="0 0 24 24"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 LightArt. Все права защищены.</p>
+    </div>
+</footer>
+
+  <div id="services-cart" class="services-cart">
+    <div class="cart-icon" id="cart-icon">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <path d="M16 10a4 4 0 0 1-8 0"/>
+      </svg>
+      <span class="cart-count" id="cart-count">0</span>
+    </div>
+    <div class="cart-dropdown" id="cart-dropdown">
+      <div class="cart-header">
+        <h3>Корзина услуг</h3>
+        <button class="cart-close" id="cart-close">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 6L6 18M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      <div class="cart-items" id="cart-items">
+        <p class="cart-empty">Корзина пуста</p>
+      </div>
+      <div class="cart-footer">
+        <button class="cart-checkout-btn" id="cart-checkout-btn" disabled>
+          Перейти к заказу
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/navigation.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html> 
